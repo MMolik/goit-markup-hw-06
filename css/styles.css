@@ -790,7 +790,7 @@ display: block;
   left: 16px;
   translate: 0 80%;
 }
-.modal-icon-input:focus-within + svg {
+.modal-icon-container:focus-within > svg {
   fill: var(--iris);
 }
 .modal-button-send {
@@ -813,4 +813,8 @@ position: relative;
 left: 119px;
 margin: 24px;
 padding: 16px 32px 16px 32px;
+}
+.modal-textarea {
+  width: 360px;
+  height: 120px;
 }
