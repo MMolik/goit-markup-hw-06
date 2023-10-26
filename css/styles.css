@@ -837,6 +837,18 @@ border-color: #4D5AE5; }
 }
 .modal-body {
 padding: 72px 24px 24px 24px;
+background-color: var(--dairy);
+  width: 408px;
+  width:fixed;
+  min-height: 584px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%) scale(1);
+  display: block;
+  border-radius: 4px;
+  background: #fcfcfc;
+
 }
 .modal-svg-input {
   position: relative;
