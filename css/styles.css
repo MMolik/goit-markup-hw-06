@@ -802,7 +802,8 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 min-width: 169px;
 height: 56px;
 color: white;
-text-align: center;
+text-align:center;
+margin: auto;
 
 /* Button Text */
 font-family: "Roboto", sans-serif;
@@ -841,7 +842,6 @@ border-color: #4D5AE5; }
 .modal-body {
 padding: 72px 24px 24px 24px;
 background-color: var(--dairy);
-  width: 408px;
   width:fixed;
   min-height: 584px;
   top: 50%;
