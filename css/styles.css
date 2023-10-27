@@ -888,4 +888,8 @@ fill:transparent;
 .modal-privacy-link {
 color: var(--iris);
 }
-.input-modal-privacy:checked 
+.input-modal-privacy:checked + label>span {
+  background-color: var(--ocean);
+  border:none;
+  fill: var(--cloud);
+}
