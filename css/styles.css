@@ -888,4 +888,5 @@ color: var(--iris);
 .input-modal-privacy:checked + label>span {
   background-color: var(--ocean);
   border:none;
+  fill: var(--cloud);
 }
